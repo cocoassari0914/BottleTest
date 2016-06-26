@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+		<title>login</title>
+    <link rel="stylesheet" type="text/css" href="{{url('static_file', filepath="./css/bootstrap.min.css")}}" />
+    <link rel="stylesheet" type="text/css" href="{{url('static_file', filepath="./css/bootstrap-theme.min.css")}}" />
+    <link rel="stylesheet" type="text/css" href="{{url('static_file', filepath="./css/index.css")}}" />
+    <script type="text/javascript" src="{{url('static_file', filepath="./js/jquery.min.js")}}"></script>
+    <script type="text/javascript" src="{{url('static_file', filepath="./js/bootstrap.min.js")}}"></script>
+    <script type="text/javascript" src="{{url('static_file', filepath="./js/index.js")}}"></script>
+    <script>
+      function goTop(formName) {
+        index.doSubmit('#loginFrom')
+      }
+    </script>
+	</head>
+	<body>
+    <nav class="navbar-inverse">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+          <span class="sr-only">メニュー</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="gnavi" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="index.html">test</a></li>
+        </ul>
+      </div>
+    </nav>
+      <h1>HELLO☆彡<br>{{mail}}</h1>
+	</body>
+</html>
