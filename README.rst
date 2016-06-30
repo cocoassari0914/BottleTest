@@ -1,4 +1,4 @@
-Bottle Web Framework
+Bottle Web Framework test
 ====================
 
 .. image:: http://bottlepy.org/docs/dev/_static/logo_nav.png
